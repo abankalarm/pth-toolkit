@@ -1,3 +1,22 @@
+### Since the out of box version of pth toolkit has actually got pretty old heres the newer steps to make it run - that i had piece together myself and still run in 2021
+
+## Changes:
+I have added several static libraries that aren't shipped anymore with newer releases (e.g. libgnutls.so.26, libreadline.so.6) so you are really good to go now ;)
+I have also added the steps below without which you will keep running into errors
+
+## Steps:
+1. Binaries only run when placed in /opt/pth due to compile time hardcoded paths.
+2. export path using export PATH="/opt/pth/bin:$PATH"
+
+## Tested on
+kernel - 5.11.0-7614-generic
+Ubuntu - 20.10
+x86_64
+
+## Still facing issues?
+Feel free to create one in issue tabs
+
+# ORIGINAL DESCRIPTION
 pth-toolkit
 ===========
 
