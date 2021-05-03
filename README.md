@@ -1,4 +1,4 @@
-### Since the out of box version of pth toolkit has actually got pretty old heres the newer steps to make it run - that i had piece together myself and still run in 2021
+### Since the out of box version of pth toolkit has actually got pretty old here are the newer steps to make it run - that i had piece together myself and still run in 2021
 
 ## Changes:
 I have added/replaced several static libraries that aren't shipped anymore with newer releases or dont run properly in the newer distos(e.g. libgnutls.so.26, libreadline.so.6) so you are really good to go now ;)
