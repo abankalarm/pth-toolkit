@@ -1,7 +1,7 @@
 ### Since the out of box version of pth toolkit has actually got pretty old heres the newer steps to make it run - that i had piece together myself and still run in 2021
 
 ## Changes:
-I have added several static libraries that aren't shipped anymore with newer releases (e.g. libgnutls.so.26, libreadline.so.6) so you are really good to go now ;)
+I have added/replaced several static libraries that aren't shipped anymore with newer releases or dont run properly in the newer distos(e.g. libgnutls.so.26, libreadline.so.6) so you are really good to go now ;)
 I have also added the steps below without which you will keep running into errors
 
 ## Steps:
@@ -14,6 +14,10 @@ Ubuntu - 20.10
 x86_64
 
 ## Still facing issues?
+wget https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb
+sudo dpkg -i packages-microsoft-prod.deb
+(not super sure how helpful this was in making them run but was one of the commands that i did run)
+
 Feel free to create one in issue tabs
 
 # ORIGINAL DESCRIPTION
